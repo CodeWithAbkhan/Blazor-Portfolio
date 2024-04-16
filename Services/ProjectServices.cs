@@ -29,7 +29,7 @@ public class ProjectServices : IProjectServices
                 {
                     new Technology { Name = "NET Core", Icon = "images/icons/net-core.svg" },
                     new Technology { Name = "C#", Icon = "images/icons/cpp.svg" },
-                    new Technology { Name = "Blazor .NET 8", Icon = "images/icons/Blazor.svg" },
+                    new Technology { Name = "Blazor .NET 8", Icon = "images/icons/blazor.svg" },
                     new Technology { Name = "Web Assembly", Icon = "images/icons/webassembly.svg" },
                     new Technology { Name = "Github", Icon = "images/icons/github.svg" }
                 },
@@ -56,11 +56,11 @@ public class ProjectServices : IProjectServices
                 {
                     new Technology { Name = "NET Core", Icon = "images/icons/net-core.svg" },
                     new Technology { Name = "C#", Icon = "images/icons/cpp.svg" },
-                    new Technology { Name = "Blazor .NET 8", Icon = "images/icons/Blazor.svg" },
+                    new Technology { Name = "Blazor .NET 8", Icon = "images/icons/blazor.svg" },
                     new Technology { Name = "MS SQL SERVER", Icon = "images/icons/sql-server.svg" },
-                    new Technology { Name = "Docker", Icon = "images/icons/Docker.svg" },
+                    new Technology { Name = "Docker", Icon = "images/icons/docker.svg" },
                     new Technology { Name = "Github", Icon = "images/icons/github.svg" },
-                    new Technology { Name = "Linux", Icon = "images/icons/Linux.svg" }
+                    new Technology { Name = "Linux", Icon = "images/icons/linux.svg" }
                 },
                 Website = null,
                 Github = "https://github.com/CodeWithAbkhan/smpatients"
@@ -85,7 +85,7 @@ public class ProjectServices : IProjectServices
                 {
                     new Technology { Name = "NET Core", Icon = "images/icons/net-core.svg" },
                     new Technology { Name = "C#", Icon = "images/icons/cpp.svg" },
-                    new Technology { Name = "Blazor .NET 8", Icon = "images/icons/Blazor.svg" },
+                    new Technology { Name = "Blazor .NET 8", Icon = "images/icons/blazor.svg" },
                     new Technology { Name = "Github", Icon = "images/icons/github.svg" }
                 },
                 Website = "https://youtu.be/B2TWGlE8noU",
