@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>52167502-a975-4dd3-add6-57ee36f8f55b</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,12 +22,10 @@
   <Exec Command="npm -v" ContinueOnError="true">
     <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
   </Exec>
-    <Error Condition="'$(ErrorCode)' != '0'"  Text="You must install NPM "></Error>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="You must install NPM "></Error>
    </Target>
 <Target Name="BuildCSS" BeforeTargets="Compile">
-    <Exec EnvironmentVariables="NODE_ENV=production"
-          Command="npx tailwindcss -i Styles/app.css -o wwwroot/css/app.css --minify"
-          Condition="'$(Configuration)' == 'Release' " />
+    <Exec EnvironmentVariables="NODE_ENV=production" Command="npx tailwindcss -i Styles/app.css -o wwwroot/css/app.css --minify" Condition="'$(Configuration)' == 'Release' " />
 </Target>
 
 
