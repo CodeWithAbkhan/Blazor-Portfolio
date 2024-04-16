@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6as/NWcqoATUMa0ANkaxmyiryXDSqOgkJ8r7c5QgBeM=",
+  "Hash": "3V6xp6WCXCChwB4O4QVGEgH1a3ZUPiqhPKmt9i4khyk=",
   "Source": "WasmPortfolio",
   "BasePath": "/",
   "Mode": "Root",
@@ -8890,12 +8890,12 @@
       "OriginalItemSpec": "wwwroot\\js\\glowEffect.js"
     },
     {
-      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\mstile-150x150.png",
+      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\js\\jquery.min.js",
       "SourceId": "WasmPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "mstile-150x150.png",
+      "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8906,7 +8906,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\mstile-150x150.png"
+      "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\js\\tilt.jquery.js",
+      "SourceId": "WasmPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/tilt.jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\tilt.jquery.js"
     },
     {
       "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\safari-pinned-tab.svg",

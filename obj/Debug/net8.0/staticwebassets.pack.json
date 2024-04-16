@@ -241,8 +241,12 @@
       "PackagePath": "staticwebassets\\js\\glowEffect.js"
     },
     {
-      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\mstile-150x150.png",
-      "PackagePath": "staticwebassets\\mstile-150x150.png"
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\js\\tilt.jquery.js",
+      "PackagePath": "staticwebassets\\js\\tilt.jquery.js"
     },
     {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\safari-pinned-tab.svg",
