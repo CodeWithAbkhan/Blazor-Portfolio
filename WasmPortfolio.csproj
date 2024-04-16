@@ -25,8 +25,9 @@
    </Target>
 <Target Name="BuildCSS" BeforeTargets="Compile">
     <Exec EnvironmentVariables="NODE_ENV=production"
-          Command="npx tailwindcss -i .\Styles\app.css -o .\wwwroot\css\app.css --minify"
-          Condition="'$(Configuration)' == 'Release'" />
+          Command="npx tailwindcss -i Styles/app.css -o wwwroot/css/app.css --minify"
+          Condition="'$(Configuration)' == 'Release' " />
 </Target>
+
 
 </Project>
