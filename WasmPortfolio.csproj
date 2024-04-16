@@ -21,7 +21,7 @@
   <Exec Command="npm -v" ContinueOnError="true">
     <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
   </Exec>
-    <Error Condition="$(ErrorCode)' != '0'"  Text="You must install NPM "/>
+    <Error Condition="'$(ErrorCode)' != '0'"  Text="You must install NPM "></Error>
    </Target>
 <Target Name="BuildCSS" BeforeTargets = "Compile">
     <Exec EnvironmentVariables="NODE_ENV=production"

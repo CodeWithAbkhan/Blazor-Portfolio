@@ -12,8 +12,8 @@ public class ProjectServices : IProjectServices
             new Project
             {
                 Name = "My Porfolio Powered by .NET blazor",
-                 Started = DateTime.Parse("2020-02-12"),
-                Ended =DateTime.Parse("2022-01-24"),
+                 Started = DateTime.Parse("2024-03-29"),
+                Ended =DateTime.Parse("2024-04-16"),
                 Description = "My Personal Porfolio build using .NET 8 and ASP.NET Core Blazor WebAssembly",
                 Images = new List<ProImage>
                 {
@@ -34,7 +34,7 @@ public class ProjectServices : IProjectServices
                     new Technology { Name = "Github", Icon = "/images/icons/github.svg" }
                 },
                 Website = "https://youtu.be/B2TWGlE8noU",
-                Github = "https://github.com/CodeWithAbkhan/StaticBlogBlazor"
+                Github = "https://github.com/CodeWithAbkhan/Blazor-Portfolio"
             },
             new Project
             {

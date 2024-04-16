@@ -5,7 +5,7 @@
 
 ## Overview
 
-This is my personal portfolio built using .NET 8 and ASP.NET Core Blazor WebAssembly. It showcases my projects, skills, and experiences from February 12, 2020, to January 24, 2022.
+This is my personal portfolio built using .NET 8 and ASP.NET Core Blazor WebAssembly. It showcases my projects, skills, and experiences from March 28, 2024, to April 16, 2024.
 
 ## Technologies Used
 
@@ -21,4 +21,4 @@ You can visit my portfolio website to explore my projects, skills, and experienc
 
 ## View on GitHub
 
-To view the source code and contribute to this project, visit the GitHub repository [here](https://github.com/yourusername/your-portfolio-repo).
+To view the source code and contribute to this project, visit the GitHub repository [here](https://github.com/CodeWithAbkhan/Blazor-Portfolio).
