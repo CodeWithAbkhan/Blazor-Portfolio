@@ -65,22 +65,6 @@
       "PackagePath": "staticwebassets\\images\\icons\\Adobe-Photoshop.svg"
     },
     {
-      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\Linux.svg",
-      "PackagePath": "staticwebassets\\images\\icons\\Linux.svg"
-    },
-    {
-      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\NET-core.svg",
-      "PackagePath": "staticwebassets\\images\\icons\\NET-core.svg"
-    },
-    {
-      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\PuTTY.svg",
-      "PackagePath": "staticwebassets\\images\\icons\\PuTTY.svg"
-    },
-    {
-      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\WordPress.svg",
-      "PackagePath": "staticwebassets\\images\\icons\\WordPress.svg"
-    },
-    {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\astro.svg",
       "PackagePath": "staticwebassets\\images\\icons\\astro.svg"
     },
@@ -141,12 +125,20 @@
       "PackagePath": "staticwebassets\\images\\icons\\javascript.svg"
     },
     {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\linux.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\linux.svg"
+    },
+    {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\mongodb.svg",
       "PackagePath": "staticwebassets\\images\\icons\\mongodb.svg"
     },
     {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\mysql.svg",
       "PackagePath": "staticwebassets\\images\\icons\\mysql.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\net-core.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\net-core.svg"
     },
     {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\next.svg",
@@ -171,6 +163,10 @@
     {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\prisma.svg",
       "PackagePath": "staticwebassets\\images\\icons\\prisma.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\putty.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\putty.svg"
     },
     {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\react.svg",
@@ -207,6 +203,10 @@
     {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\webpack.svg",
       "PackagePath": "staticwebassets\\images\\icons\\webpack.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\wordpress.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\wordpress.svg"
     },
     {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\Blog-single-page-latest-Blazor-Static-Server-Rendering-Features-Project.png",

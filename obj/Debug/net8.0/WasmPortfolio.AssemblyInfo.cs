@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WasmPortfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b1e40e09b56b299885cfa60291b802b7f51ec2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edad2c97832a83740eb1f9335650cf7649cd0f11")]
 [assembly: System.Reflection.AssemblyProductAttribute("WasmPortfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WasmPortfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

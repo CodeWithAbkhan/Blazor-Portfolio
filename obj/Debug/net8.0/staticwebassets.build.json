@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "24Ssrcsuko/wSHhSCUtWpZnqA1zC2rDJt44FtYeXYZg=",
+  "Hash": "6as/NWcqoATUMa0ANkaxmyiryXDSqOgkJ8r7c5QgBeM=",
   "Source": "WasmPortfolio",
   "BasePath": "/",
   "Mode": "Root",
@@ -8339,12 +8339,12 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\javascript.svg"
     },
     {
-      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\Linux.svg",
+      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\linux.svg",
       "SourceId": "WasmPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/icons/Linux.svg",
+      "RelativePath": "images/icons/linux.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8355,7 +8355,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\icons\\Linux.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icons\\linux.svg"
     },
     {
       "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\mongodb.svg",
@@ -8396,12 +8396,12 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\mysql.svg"
     },
     {
-      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\NET-core.svg",
+      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\net-core.svg",
       "SourceId": "WasmPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/icons/NET-core.svg",
+      "RelativePath": "images/icons/net-core.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8412,7 +8412,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\icons\\NET-core.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icons\\net-core.svg"
     },
     {
       "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\next.svg",
@@ -8529,12 +8529,12 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\prisma.svg"
     },
     {
-      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\PuTTY.svg",
+      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\putty.svg",
       "SourceId": "WasmPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/icons/PuTTY.svg",
+      "RelativePath": "images/icons/putty.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8545,7 +8545,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\icons\\PuTTY.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icons\\putty.svg"
     },
     {
       "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\react.svg",
@@ -8719,12 +8719,12 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\webpack.svg"
     },
     {
-      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\WordPress.svg",
+      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\wordpress.svg",
       "SourceId": "WasmPortfolio",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/icons/WordPress.svg",
+      "RelativePath": "images/icons/wordpress.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8735,7 +8735,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\icons\\WordPress.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icons\\wordpress.svg"
     },
     {
       "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\blazor-dotnet-wasm-portfolio-github-light.png",
