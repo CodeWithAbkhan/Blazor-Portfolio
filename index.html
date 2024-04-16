@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <base href="/Blazor-Portfolio/" />
+    
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- If you add any scoped CSS files, uncomment the following to load them-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="WasmPortfolio.styles.css" rel="stylesheet" />
+</head>
+
+<body class="bg-slate-100 dark:bg-black">
+    <div id="app">
+     
+           <div class='flex justify-center items-center  h-screen dark:invert'>
+            <div class="rounded-md h-12 w-12 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
+        </div>
+    
+    <div class="loading-progress-text"></div>
+    </div>
+
+
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script> -->
+    <script src="js/tilt.jquery.js"></script>
+    <script src="js/glowEffect.js"></script>
+</body>
+
+</html>
