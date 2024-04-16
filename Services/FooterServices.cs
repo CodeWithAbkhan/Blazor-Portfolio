@@ -15,10 +15,10 @@ public class FooterServices
                     Title = "Important Links",
                     Links = new List<Link>
                     {
-                        new Link { Title = "Home", Href = "/" },
-                        new Link { Title = "My work", Href = "/work" },
+                        new Link { Title = "Home", Href = "" },
+                        new Link { Title = "My work", Href = "work" },
                         new Link { Title = "Blog", Href = "https://sqlpey.com" },
-                        new Link { Title = "What I Use", Href = "/techs" }
+                        new Link { Title = "What I Use", Href = "techs" }
                     }
                 },
                 new FooterCategory
@@ -36,8 +36,8 @@ public class FooterServices
                     Title = "Other",
                     Links = new List<Link>
                     {
-                        new Link { Title = "What i use", Href = "/uses" },
-                        new Link { Title = "Contact", Href = "/contact" }
+                        new Link { Title = "What i use", Href = "uses" },
+                        new Link { Title = "Contact", Href = "contact" }
                     }
                 }
             }

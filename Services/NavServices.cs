@@ -8,11 +8,11 @@ public class NavServices
             {
                 LeftItems = new List<NavItem>
                 {
-                    new NavItem { Href = "/", Title = "Home" },
-                    new NavItem { Href = "/about", Title = "About" },
-                    new NavItem { Href = "/work", Title = "My Work" },
+                    new NavItem { Href = "", Title = "Home" },
+                    new NavItem { Href = "about", Title = "About" },
+                    new NavItem { Href = "work", Title = "My Work" },
                     new NavItem { Href = "https://sqlpey.com", Title = "Blog" },
-                    new NavItem { Href = "/techs", Title = "What I use" }
+                    new NavItem { Href = "techs", Title = "What I use" }
                     // Add more left navigation items as needed
                 },
                 RightItems = new List<NavItem>

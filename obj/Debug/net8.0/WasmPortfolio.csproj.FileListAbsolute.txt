@@ -1028,3 +1028,4 @@ C:\Users\AbKhan\WasmPortfolio\obj\Debug\net8.0\WasmPortfolio.dll
 C:\Users\AbKhan\WasmPortfolio\obj\Debug\net8.0\refint\WasmPortfolio.dll
 C:\Users\AbKhan\WasmPortfolio\obj\Debug\net8.0\WasmPortfolio.pdb
 C:\Users\AbKhan\WasmPortfolio\obj\Debug\net8.0\ref\WasmPortfolio.dll
+C:\Users\AbKhan\WasmPortfolio\obj\Debug\net8.0\WasmPortfolio.sourcelink.json

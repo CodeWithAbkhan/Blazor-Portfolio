@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HbA+kLU2d3sIw+qxLV3h44iS2PWQvQ5BumarwwXy35Q=",
+  "Hash": "24Ssrcsuko/wSHhSCUtWpZnqA1zC2rDJt44FtYeXYZg=",
   "Source": "WasmPortfolio",
   "BasePath": "/",
   "Mode": "Root",
@@ -8831,6 +8831,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\projects\\sm-patients-management-system-project-build-with-aspnet-core-dot-net-8-full-stack-docker-sql-server-image-deployed-on-vps-ubuntu-using-docker.png"
+    },
+    {
+      "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\sqlpey-build-using-hugo-static-site-generation.png",
+      "SourceId": "WasmPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/projects/sqlpey-build-using-hugo-static-site-generation.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\sqlpey-build-using-hugo-static-site-generation.png"
     },
     {
       "Identity": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\index.html",

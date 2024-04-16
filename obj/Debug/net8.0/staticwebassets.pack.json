@@ -229,6 +229,10 @@
       "PackagePath": "staticwebassets\\images\\projects\\sm-patients-management-system-project-build-with-aspnet-core-dot-net-8-full-stack-docker-sql-server-image-deployed-on-vps-ubuntu-using-docker.png"
     },
     {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\sqlpey-build-using-hugo-static-site-generation.png",
+      "PackagePath": "staticwebassets\\images\\projects\\sqlpey-build-using-hugo-static-site-generation.png"
+    },
+    {
       "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
