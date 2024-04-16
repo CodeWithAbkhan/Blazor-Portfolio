@@ -23,6 +23,11 @@ jobs:
       - name: Dotnet Publish
         run: dotnet publish --configuration Release -f net8.0
       
+      - name: Use Secret as Environment Variable
+        env:
+          PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+        run: echo "Secret Value TOKEN= $PUBLISH_TOKEN"
+      
       - name: Change base-tag in index.html to repo name
         run: sed -i 's/<base href="\/" \/>/<base href="\/${{ env.REPO_NAME }}\/" \/>/g' $GITHUB_WORKSPACE/${{ env.PUBLISH_FOLDER }}/index.html
   
@@ -36,6 +41,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
+          github_token: ${{ secrets.PUBLISH_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ${{ env.PUBLISH_FOLDER }}
           allow_empty_commit: false

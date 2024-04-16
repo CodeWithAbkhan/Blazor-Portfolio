@@ -22,3 +22,6 @@ You can visit my portfolio website to explore my projects, skills, and experienc
 ## View on GitHub
 
 To view the source code and contribute to this project, visit the GitHub repository [here](https://github.com/CodeWithAbkhan/Blazor-Portfolio).
+
+## token
+git remote set-url origin https://codewithabkhan:PUBLISH_TOKEN@github.com/codewithabkhan/blazor-portfolio.git
