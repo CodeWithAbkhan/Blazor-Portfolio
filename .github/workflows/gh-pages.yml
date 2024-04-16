@@ -34,7 +34,7 @@ jobs:
       - name: Copy index.html to 404.html
         run: cp $GITHUB_WORKSPACE/${{ env.PUBLISH_FOLDER }}/index.html $GITHUB_WORKSPACE/${{ env.PUBLISH_FOLDER }}/404.html
       
-      - name: Add .nojekyll file
+      - name: Add .nojekyll file 
         run: touch ${{ env.PUBLISH_FOLDER }}/.nojekyll
         
       - name: Deploy GitHub Pages action
