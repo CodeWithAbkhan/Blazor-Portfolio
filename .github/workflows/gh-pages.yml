@@ -9,7 +9,7 @@ jobs:
     env:
       PUBLISH_FOLDER: bin/Release/net8.0/publish/wwwroot
 
-    name: Build and Deploy Job
+    name: Build and Deploy Job 
     steps:
       - name: Set the name of the repo in env variable 
         run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
