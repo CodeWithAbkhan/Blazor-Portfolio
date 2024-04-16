@@ -1,0 +1,25 @@
+.after-cursor[b-bzd0r377gj] {
+    position: relative;
+}
+
+.cursor-animation[b-bzd0r377gj] {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 2px; /* Width of the cursor */
+    background-color: black; /* Color of the cursor */
+    animation: blink-b-bzd0r377gj 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink-b-bzd0r377gj {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

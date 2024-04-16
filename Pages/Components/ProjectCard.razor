@@ -1,0 +1,69 @@
+﻿@using System.Globalization
+@if (project != null)
+{
+    <!-- Project Card Container -->
+    <div class="mx-auto mb-6 flex flex-col gap-4 overflow-hidden rounded-xl border-[1px] border-black/15 p-6 duration-200 ease-in-out bg-white hover:bg-gray-200/50 motion-reduce:transition-none dark:border-neutral-800 dark:bg-[#161617] dark:hover:border-neutral-700 dark:hover:bg-[#202021] md:flex-row">
+        <!-- Left Column -->
+        <div class="min-w-[50%]">
+            <!-- Project Name -->
+            <h3 class="text-left dark:text-white text-3xl font-semibold">@project.Name</h3>
+            <!-- Project Dates -->
+            @if (!string.IsNullOrEmpty(project.Started.ToString()))
+            {
+                <time class="my-2 block text-sm font-normal leading-none text-gray-700 dark:text-neutral-500">
+                    @project.Started.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture)
+                    -
+                    @(project.Ended.ToString() != null ? project.Ended.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture) : "Now")
+                </time>
+            }
+            <!-- Project Description -->
+            <p class="mt-2 text-left text-gray-700 dark:text-neutral-400 md:w-3/4">@project.Description</p>
+            <!-- Project Technologies -->
+            <div class="mt-4 flex flex-wrap gap-2">
+                @if (project.Technologies != null)
+                {
+                    @foreach (var tech in project.Technologies)
+                    {
+                        <div class="flex items-center gap-2 rounded-md border border-black border-opacity-15 px-2 py-1 cursor-pointer font-mono text-sm font-medium text-gray-900 dark:text-white hover:bg-black/5% hover:bg-white/5% duration-200 dark:border-neutral-600">
+                            <img src="@tech.Icon" alt="@tech.Name" width="20" height="20" class="h-5 w-5" />
+                            @tech.Name
+                        </div>
+                    }
+                }
+            </div>
+               <!-- Project Links -->
+            <div class="flex flex-wrap gap-2">
+                @if (!string.IsNullOrEmpty(project.Website))
+                {
+                    <!-- Website Link -->
+                    <a href="@project.Website" target="_blank" rel="noopener noreferrer"></a>
+                    <ButtonPrimary Href="@project.Website" Text="Visit Website"/>
+                }
+                @if (!string.IsNullOrEmpty(project.Github))
+                {
+                    <!-- Github Link -->
+                    <ButtonSecondary Href="@project.Github" Text="View on Github" />
+                }
+            </div>
+        </div>
+        <!-- Right Column (Project Images) -->
+        @if (project.Images != null && project.Images.Any())
+        {
+            <div class="@($"flex columns-{(project.Images.Count < 2 ? 1 : 2)}")">
+                @foreach (var image in project.Images)
+                {
+                    <!-- Project Image -->
+                    <a href="@image.Src" target="_blank" rel="noopener noreferrer">
+                        <img src="@image.Src" alt="@image.Alt" width="@image.Width" height="@image.Height" class="h-72 object-cover object-top object-left cursor-zoom-in rounded-xl border border-black border-opacity-15 duration-200 hover:opacity-70 dark:border-neutral-800" />
+                    </a>
+                }
+            </div>
+        }
+        
+    </div>
+ 
+}
+
+@code {
+    [Parameter] public Project project { get; set; }
+}

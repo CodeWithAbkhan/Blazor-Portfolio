@@ -1,0 +1,130 @@
+﻿@using System.ComponentModel.DataAnnotations
+@using System.Threading.Tasks
+@using System.Text.Json
+@inject EmailServices emailServices
+
+<EditForm Model="@formData" OnValidSubmit="@HandleSubmit" FormName="contactform" class="relative flex w-full flex-col items-center justify-center">
+  
+   <DataAnnotationsValidator />
+    <div class="z-[2] block w-full items-center justify-center gap-1.5 text-left md:flex">
+        <label for="name" class="w-full text-left text-sm font-semibold tracking-wide text-gray-700 dark:text-neutral-300">
+            Name
+            <span aria-hidden="true" class="cursor-help text-red-500" title="Required">*</span>
+            <InputText @bind-Value="@formData.Name" id="name" class="my-2 w-full rounded-lg border-[1px] p-2 dark:border-neutral-700 font-normal outline-0 duration-200 dark:bg-transparent" placeholder="Your Email!"/>
+           
+            <p class="flex items-center self-start text-red-500">
+                <div class="mr-1 h-4 w-4"></div> 
+                <ValidationMessage For="@(() => formData.Name)" />
+            </p>
+        </label>
+        <label for="email" class="w-full text-left text-sm font-semibold tracking-wide text-gray-700 dark:text-neutral-300">
+            Email
+            <span aria-hidden="true" class="cursor-help text-red-500" title="Required">*</span>
+            <InputText @bind-Value="@formData.Email" id="email" class="my-2 w-full rounded-lg border-[1px] dark:border-neutral-700 p-2 font-normal outline-0 duration-200 dark:bg-transparent"  placeholder="Your Name!"/>
+            <p class="flex items-center self-start text-red-500">
+            <div class="mr-1 h-4 w-4"></div>
+           <ValidationMessage For="@(() => formData.Email)" />
+        </p>
+           
+        </label>
+    </div>
+    <div class="mt-2 flex w-full flex-col items-center justify-center gap-1.5">
+        <label for="message" class="w-full text-left text-sm font-semibold tracking-wide text-gray-700 dark:text-neutral-300">
+            Message
+            <span aria-hidden="true" class="cursor-help text-red-500" title="Required">*</span>
+            <InputTextArea @bind-Value="@formData.Message" id="message" class="mt-2 max-h-40 min-h-[80px] w-full rounded-lg border-[1px] dark:border-neutral-700 p-2 font-normal outline-0 duration-200 dark:bg-transparent" placeholder="Hello there!" />
+            <p class="flex items-center self-start text-red-500">
+                <div class="mr-1 h-4 w-4"></div> 
+                  <ValidationMessage For="@(() => formData.Message)" />
+            </p>
+            <span class="ml-auto text-xs opacity-50"></span>
+        </label>
+    </div>
+
+    @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <p class="flex items-center self-start text-green-500">
+            <div class="mr-1 h-4 w-4"></div>
+            @successMessage
+        </p>
+    }
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <p class="flex items-center self-start text-red-400">
+            <div class="mr-1 h-4 w-4"></div>
+            @errorMessage
+        </p>
+    }
+
+    <div class="w-full py-2">
+        <button  class="group mt-2 flex w-fit items-center rounded-md bg-gray-200 px-4 py-2 font-medium text-blue-900 duration-200 hover:bg-gray-300 motion-reduce:transition-none dark:bg-white/10 dark:text-white dark:hover:bg-white/15 mt-4 md:mt-6" type="submit" icon="true" disabled="@loading">
+            @if (loading)
+            {
+                <span>Sending</span>
+            }
+            else
+            {
+                <span>Send</span>
+                <svg class="ml-2 h-4 w-4 duration-200 group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover:translate-x-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+            }
+        </button>
+    </div>
+</EditForm>
+
+@code {
+    private class FormData
+    {
+        [Required(ErrorMessage = "Name is required")]
+        [StringLength(20, MinimumLength = 3, ErrorMessage = "Name must be between 3 and 20 characters")]
+        public string Name { get; set; } =string.Empty;
+
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid email format")]
+        [StringLength(50, MinimumLength = 5, ErrorMessage = "Email must be between 5 and 50 characters")]
+        public string Email { get; set; }=string.Empty;
+
+        [Required(ErrorMessage = "Message is required")]
+        [StringLength(500, MinimumLength = 10, ErrorMessage = "Message must be between 10 and 500 characters")]
+        public string Message { get; set; }=string.Empty;
+    }
+    [SupplyParameterFromForm]
+    private FormData formData {get; set;}= new FormData();
+    private bool loading;
+    private string successMessage;
+    private string errorMessage;
+        private async Task HandleSubmit()
+        {
+            loading = true;
+            successMessage = null;
+            errorMessage = null;
+            
+            var response = await emailServices.SendContactForm(formData.Email, formData.Name, formData.Message);
+
+            var content = await response.Content.ReadAsStringAsync();
+
+           if (response.IsSuccessStatusCode)
+            {
+                @* var result = JsonSerializer.Deserialize<Dictionary<string, object>>(content); *@
+                
+                @* if (result.ContainsKey("success") && (bool)result["success"] == false)
+                {
+                    errorMessage = result["message"].ToString();
+                }
+                else
+                {
+                    formData = new FormData();
+                    successMessage = result["message"].ToString();
+                } *@
+                  successMessage ="Message Send Successfully!";
+            }
+            else
+            {
+                errorMessage = "Failed to send message. Please try again later.";
+            }
+
+            loading = false;
+        }
+
+}

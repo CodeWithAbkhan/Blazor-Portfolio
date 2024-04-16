@@ -1,0 +1,119 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = WasmPortfolio
+build_property.RootNamespace = WasmPortfolio
+build_property.ProjectDir = C:\Users\AbKhan\WasmPortfolio\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\AbKhan\WasmPortfolio
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/AbKhan/WasmPortfolio/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/ButtonPrimary.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xCdXR0b25QcmltYXJ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/ButtonSecondary.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xCdXR0b25TZWNvbmRhcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/ConsoleCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDb25zb2xlQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/ConsoleLine.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDb25zb2xlTGluZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/ConsoleResponse.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDb25zb2xlUmVzcG9uc2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/ContactUs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDb250YWN0VXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/DirectContact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xEaXJlY3RDb250YWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/FooterMain.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xGb290ZXJNYWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/GlowEffect.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xHbG93RWZmZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/HeaderSecond.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xIZWFkZXJTZWNvbmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/ProjectCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQcm9qZWN0Q2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/SessionAbout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xTZXNzaW9uQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/TechnologiesList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUZWNobm9sb2dpZXNMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Techs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Work.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29yay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AbKhan/WasmPortfolio/Pages/Components/Blinking.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xCbGlua2luZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-bzd0r377gj

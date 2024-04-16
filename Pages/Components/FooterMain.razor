@@ -1,0 +1,51 @@
+﻿@inject FooterServices footerService
+@using WasmPortfolio.Models
+
+<footer class="mx-auto w-full px-4 py-10 pt-10 font-sans md:px-8 lg:px-16 ">
+   <div class="grid grid-cols-2 gap-9 md:grid-cols-6">
+    <div class="col-span-3 flex flex-col justify-center">
+     <NavLink href="/">
+      <span class="flex dark:text-white cursor-pointer items-center text-2xl font-semibold">
+      Abkhan
+       <span class="bg-gradient-to-r from-[#6310ff] to-[#1491ff] box-decoration-clone bg-clip-text text-fill-transparent dark:from-[#a2facf] dark:to-[#64acff]">.</span> <span class="mx-1 ml-2 rounded-lg bg-black/10 px-2 py-1 text-xs dark:bg-white/10">v 1.0.0</span>
+      </span>
+     </NavLink>
+
+     <p class="my-3 text-gray-700 dark:text-neutral-300">
+      Created with ❤️ and ☕ in Pakistan using 
+      <NavLink href="https://dotnet.com" target="_blank">
+      Blazor WASM
+      </NavLink>
+     </p>
+
+     <p class="mb-4 text-gray-700 opacity-50 dark:text-neutral-300">A programmer without coffee is like a web browser without the Internet - it seemingly works but is it useful?</p>
+    </div>
+    @foreach (var category in footer.Categories)
+    {
+     <div class="col-span-1 text-gray-700 dark:text-neutral-300">
+      <p class="mt-3 font-semibold text-gray-800 dark:text-white sm:mb-3 sm:mt-0">@category.Title</p>
+      <div>
+       @foreach (var link in category.Links)
+        {
+        <NavLink href="@link.Href"  target="@(link.Target ?? "_self")" class="mt-2 block duration-100 hover:text-gray-700 hover:underline motion-reduce:transition-none dark:hover:text-gray-300">
+         @link.Title
+        </NavLink>
+       }
+      </div>
+     </div>
+    }
+   </div>
+   <div class="mt-5 flex justify-end text-center text-gray-700 dark:text-neutral-300">
+    <!-- DO NOT TOUCH THE CODE BELOW! REMEMBER: YOU CAN ADD YOUR NAME AFTER MY NAME -->
+    <p class="font-semibold">&copy; 2024 - {@DateTime.Now.Year} Abkhan, All rights reserved.</p>
+   </div>
+</footer>
+
+@code {
+    private Footer footer;
+
+    protected override void OnInitialized()
+    {
+        footer = footerService.GetFooter();
+    }
+}

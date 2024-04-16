@@ -1,0 +1,19 @@
+﻿
+<div>
+    <span class="font-semibold leading-6 text-[#ea4aaa]" aria-hidden="true">→ </span>
+    <span class="font-semibold text-[#66e777]" aria-hidden="true">~/CodeWithAbkhan </span>
+   
+    @if (Blinking)
+    {
+     <Blinking>$ </Blinking>
+    }
+    else
+    {
+        <span class="font-semibold italic text-gray-700 duration-200 motion-reduce:transition-none dark:text-neutral-300 mx-2 "> $ </span>
+    }
+    <span class="italic">@ChildContent</span>
+</div>
+@code{
+        [Parameter] public RenderFragment ChildContent { get; set; }    
+        [Parameter] public bool Blinking { get; set; }    
+}

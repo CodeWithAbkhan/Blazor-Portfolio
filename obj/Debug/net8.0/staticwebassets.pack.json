@@ -1,0 +1,273 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\obj\\Debug\\net8.0\\compressed\\5hlc448fc3.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WasmPortfolio.styles.css",
+      "PackagePath": "staticwebassets\\WasmPortfolio.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\android-chrome-256x256.png",
+      "PackagePath": "staticwebassets\\android-chrome-256x256.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\browserconfig.xml"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\hero-image.png",
+      "PackagePath": "staticwebassets\\hero-image.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\hero-image.png",
+      "PackagePath": "staticwebassets\\images\\hero-image.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\Adobe-Photoshop.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\Adobe-Photoshop.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\Linux.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\Linux.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\NET-core.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\NET-core.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\PuTTY.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\PuTTY.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\WordPress.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\WordPress.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\astro.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\astro.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\blazor.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\blazor.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\code.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\code.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\cpp.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\cpp.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\deno.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\deno.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\discordjs.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\discordjs.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\docker.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\docker.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\dotnet.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\dotnet.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\eslint.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\eslint.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\express.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\express.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\figma.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\figma.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\git.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\git.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\github.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\graphql.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\graphql.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\javascript.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\javascript.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\mongodb.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\mongodb.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\mysql.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\mysql.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\next.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\next.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\nodejs.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\nodejs.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\npm.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\npm.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\pnpm.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\pnpm.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\postgresql.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\postgresql.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\prisma.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\prisma.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\react.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\react.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\rollup.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\rollup.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\sql-server.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\sql-server.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\tailwindcss.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\tailwindcss.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\turborepo.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\turborepo.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\typescript.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\typescript.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\vercel.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\vercel.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\webassembly.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\webassembly.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\icons\\webpack.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\webpack.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\Blog-single-page-latest-Blazor-Static-Server-Rendering-Features-Project.png",
+      "PackagePath": "staticwebassets\\images\\projects\\Blog-single-page-latest-Blazor-Static-Server-Rendering-Features-Project.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\Blog-using-latest-Blazor-Static-Server-Rendering-Features-Project.png",
+      "PackagePath": "staticwebassets\\images\\projects\\Blog-using-latest-Blazor-Static-Server-Rendering-Features-Project.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\blazor-dotnet-wasm-portfolio-github-light.png",
+      "PackagePath": "staticwebassets\\images\\projects\\blazor-dotnet-wasm-portfolio-github-light.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\blazor-dotnet-wasm-portfolio-github.png",
+      "PackagePath": "staticwebassets\\images\\projects\\blazor-dotnet-wasm-portfolio-github.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\images\\projects\\sm-patients-management-system-project-build-with-aspnet-core-dot-net-8-full-stack-docker-sql-server-image-deployed-on-vps-ubuntu-using-docker.png",
+      "PackagePath": "staticwebassets\\images\\projects\\sm-patients-management-system-project-build-with-aspnet-core-dot-net-8-full-stack-docker-sql-server-image-deployed-on-vps-ubuntu-using-docker.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\js\\glowEffect.js",
+      "PackagePath": "staticwebassets\\js\\glowEffect.js"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\mstile-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets\\safari-pinned-tab.svg"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\site.webmanifest",
+      "PackagePath": "staticwebassets\\site.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\AbKhan\\WasmPortfolio\\wwwroot\\sparkles.svg",
+      "PackagePath": "staticwebassets\\sparkles.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WasmPortfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WasmPortfolio.props",
+      "PackagePath": "build\\WasmPortfolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WasmPortfolio.props",
+      "PackagePath": "buildMultiTargeting\\WasmPortfolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WasmPortfolio.props",
+      "PackagePath": "buildTransitive\\WasmPortfolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

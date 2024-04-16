@@ -1,0 +1,22 @@
+﻿@inject IJSRuntime JS
+@using Microsoft.AspNetCore.Components
+@using Microsoft.JSInterop
+@using System.Threading.Tasks
+
+<div class="glow-effect" @ref="tiltElementRef">
+    @ChildContent
+</div>
+
+   
+@code {
+    [Parameter] public RenderFragment ChildContent { get; set; }
+    private ElementReference tiltElementRef;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("initializeTilt", tiltElementRef);
+        }
+    }
+}

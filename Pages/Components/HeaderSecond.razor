@@ -1,0 +1,7 @@
+﻿<h2 class="scroll-mt-20 box-decoration-clone bg-clip-text font-semibold  dark:text-white transition-none my-6 text-center text-5xl">
+    @ChildContent<span class="bg-gradient-to-r from-blue-500 to-blue-900  bg-clip-text w-4 h-4 text-transparent">.</span>
+</h2>
+@code {
+    [Parameter] public RenderFragment ChildContent { get; set; }
+
+}

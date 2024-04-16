@@ -1,0 +1,10 @@
+﻿@inherits Microsoft.AspNetCore.Components.ComponentBase
+
+<span class="after-cursor dark:text-white">
+    @ChildContent  
+    <span class="cursor-animation ml-2 "></span>
+</span>
+
+@code {
+    [Parameter] public RenderFragment ChildContent { get; set; }
+}

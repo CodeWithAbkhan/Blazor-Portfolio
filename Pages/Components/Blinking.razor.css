@@ -1,0 +1,25 @@
+.after-cursor {
+    position: relative;
+}
+
+.cursor-animation {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 2px; /* Width of the cursor */
+    background-color: black; /* Color of the cursor */
+    animation: blink 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
